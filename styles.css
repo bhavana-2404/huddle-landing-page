@@ -1,0 +1,111 @@
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    overflow-x:hidden;  
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.tag{
+    color:white;
+    font-family:'Poppins', sans-serif;
+    font-size:35px;
+    padding-left:5%;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    font-family:'Poppins', sans-serif;
+    justify-content:center ;
+    color:white;
+    padding-top:5%;
+    justify-content:space-between;
+}
+.top-container{
+    padding-left: 5%;
+}
+.bottom-container{
+    padding-left: 5%;
+}
+button{
+    border: none;
+    color:hsl(257, 40%, 49%);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+h2{
+    font-size:30px;
+    color:whitesmoke;
+}
+p{
+    font-size:20px;
+}
+.icon{
+    color:whitesmoke;
+    margin:0px 10px;
+}
+.star{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-bottom:5%;
+}
+body{
+background-image:url("images/bg-desktop.svg");
+background-color:hsl(257, 40%, 49%) ;
+}
+
+@media (max-width:900px){
+    body{
+        background-image:url("images/bg-desktop.svg");
+        background-color:hsl(257, 40%, 49%) ;
+        overflow-x: hidden;
+        
+        
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            justify-content:center ;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height:auto;
+        }
+        
+    
+    .image{
+            width: 100%;
+            height:auto;
+            
+          }
+    .bottom-container{
+        padding-top: 10%;
+        font-family: 'Poppins', sans-serif;
+        color:whitesmoke;
+    
+    }
+    h2{
+        font-weight: 700;
+        color:whitesmoke;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        border: none;
+        color:hsl(257, 40%, 49%);
+        padding: 20px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    }
+    
